@@ -1,0 +1,1025 @@
+body {
+  /* font-family: Montserrat; */
+}
+
+/* Large devices (desktops, 992px and up) */
+
+.header-logo {
+  max-width: 102px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+.header {
+  background-color: #ffff;
+  height: 105px;
+  width: auto;
+}
+
+.header-scroll {
+  box-shadow: 0 6px 11px 0 rgba(172, 172, 201, 0.5);
+}
+
+.tabs {
+  margin: auto;
+  float: none;
+  text-align: center;
+  margin-top: 35px !important;
+}
+
+.tabs a {
+  color: #122025;
+  font-weight: 400;
+  font-family: arimo !important;
+  padding: 0px 40px 0px 10px;
+  cursor: pointer;
+  /* color: #ffac07; */
+}
+
+.home-tab:hover {
+  color: #3662d1 !important;
+}
+
+.home-tab::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  background-color: #3662d1;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.underscore {
+  position: absolute;
+  height: 2px;
+  /* bottom: 16px; */
+  left: 80px;
+  background-color: #3662d1;
+  visibility: hidden;
+  transform: scaleX(0);
+  width: 50px;
+}
+
+.home-underscore {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  background-color: #3662d1;
+  visibility: visible;
+  width: 50px;
+}
+
+.about-underscore {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  background-color: #3662d1;
+  visibility: visible;
+  width: 85px;
+}
+
+.project-underscore {
+  position: absolute;
+  height: 2px;
+  bottom: 24px;
+  background-color: #3662d1;
+  visibility: visible;
+  width: 155px;
+}
+
+.service-underscore {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  background-color: #3662d1;
+  visibility: visible;
+  width: 128px;
+}
+
+.gallery-underscore {
+  position: absolute;
+  height: 2px;
+  bottom: 24px;
+  background-color: #3662d1;
+  visibility: visible;
+  width: 80px;
+}
+
+.contact-underscore {
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  background-color: #3662d1;
+  visibility: visible;
+  width: 108px;
+}
+
+.home-tab:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.underline-home::before {
+  width: 50px;
+}
+
+.underline-about::before {
+  width: 82px;
+}
+
+.underline-project::before {
+  width: 150px;
+}
+
+.underline-service::before {
+  width: 122px;
+}
+
+.underline-gallery::before {
+  width: 75px;
+}
+
+.underline-contact::before {
+  width: 105px;
+}
+
+.custom-padding {
+  padding: 0px 10px 0px 10px;
+}
+
+/* .home-tab:hover, .home-tab:focus, .home-tab:active {
+    color: #999;
+    text-decoration: none;
+}
+
+.home-tab {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #000;
+}
+.home-tab::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+.home-tab:active::before {
+    background-color: #000;
+}
+.home-tab:hover::before, .home-tab:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}  */
+.carousel-text {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffff;
+}
+
+.carousel .thumbs {
+  max-width: 400px;
+  margin-left: 12px;
+}
+
+.line-one {
+  bottom: 255px;
+  left: 125px;
+  position: absolute;
+}
+
+.line-two {
+  bottom: 190px;
+  left: 125px;
+  position: absolute;
+}
+
+.yellow-colour {
+  color: #3662d1 !important;
+}
+
+.carousel-sub-text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-align: left;
+  color: #ffffff;
+  bottom: 140px;
+  left: 130px;
+  position: absolute;
+}
+
+.contact-us-btn {
+  width: 128px;
+  height: 40px;
+  flex-grow: 0;
+  position: absolute;
+  bottom: 90px;
+  left: 130px;
+  border-radius: 1px;
+  background-color: #3662d1;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.view-gallery-btn {
+  width: 128px;
+  height: 40px;
+  flex-grow: 0;
+  border-radius: 1px;
+  background-color: #292e34;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 90px;
+  left: 40px;
+}
+
+.about-topic {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #526e88;
+}
+
+.slash {
+  width: 25px;
+  height: 2px;
+  flex-grow: 0;
+  margin: 7px 0px 0px 0px;
+  background-color: #3662d1;
+}
+
+.about-sub-topic {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #122025;
+  margin-left: 13px;
+}
+
+.about-text {
+  flex-grow: 0;
+  margin: 40px 0 0;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #526e88;
+  text-align: justify;
+}
+
+.about-img {
+  margin: auto;
+  display: block;
+  float: none;
+}
+
+.mission-all-tab {
+  width: auto;
+  height: auto;
+  margin: 96px 0 40px;
+  padding: 50px 19px 63px 48px;
+}
+
+.tab-black {
+  background-color: #292e34;
+}
+
+.tab-yellow {
+  background-color: #3662d1;
+}
+
+.mission-text {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.icon {
+  min-width: 60px;
+}
+
+.project-section {
+  background-color: #292e34;
+  height: inherit;
+  width: auto;
+  padding-bottom: 50px;
+}
+
+.project-name {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.project-img {
+  min-width: 200px;
+}
+
+.project-topic {
+  margin-left: 0px;
+  font-size: 27px;
+}
+
+.service-card-topic {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #122025;
+  margin-top: 12px;
+}
+
+.service-points li {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #526e88;
+}
+
+.card-custom-height {
+  min-height: 442px;
+  min-width: 290px;
+}
+
+.gallery-img {
+  /* max-width: 400px; */
+  max-height: 300px;
+}
+
+.gallery-height {
+  min-height: 650px;
+}
+
+.contact-sub-topic {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #526e88;
+}
+
+.contact-detail-side {
+  width: 366px;
+  height: 554px;
+  /* margin: 0 0 0 162px; */
+  padding: 73px 40px 74px;
+  background-color: #3662d1;
+}
+
+.contact-card {
+  box-shadow: 0 6px 9px 0 rgba(172, 172, 201, 0.5);
+}
+
+.contact-details-topic {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292e34;
+}
+
+.contact-details-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292e34;
+  text-align: justify;
+}
+
+.contact-details-sub-topic {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292e34;
+}
+
+.contact-label {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #122025;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #c5cee0;
+  width: 78%;
+}
+
+textarea {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #c5cee0;
+  width: 78%;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #c5cee0
+}
+
+.contact-send-btn {
+  width: 128px;
+  height: 40px;
+  color: white;
+  border-radius: 1px;
+  background-color: #3662d1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #292e34;
+  height: 88px;
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: baseline;
+}
+
+.custom-width {
+  max-width: 130px;
+}
+
+/* .section-padding{
+  height: 700px;
+} */
+.section-padding-about {
+  height: 550px;
+}
+
+.mobile-show {
+  display: none;
+}
+
+.desktop-show {
+  display: block;
+}
+
+.service-img {
+  max-width: 400px;
+  max-height: 180px !important;
+}
+
+@media only screen and (min-width: 1700px) {
+  .view-gallery-btn {
+    width: 128px;
+    height: 40px;
+    flex-grow: 0;
+    border-radius: 1px;
+    background-color: #292e34;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 90px;
+    left: -45%;
+  }
+
+  /* .aboutUs-custom-top{
+    margin-top: 17%;
+  } */
+  .line-one {
+    bottom: 400px;
+  }
+
+  .line-two {
+    bottom: 340px;
+  }
+
+  .carousel-sub-text {
+    bottom: 300px;
+  }
+
+  .contact-us-btn {
+    bottom: 280px;
+  }
+
+  .view-gallery-btn {
+    bottom: 280px;
+  }
+
+  .service-img {
+    max-width: 200px;
+    max-height: 180px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tabs a {
+    padding: 0px 7px 0px 8px;
+    font-size: 11px;
+    /* color: #ffac07; */
+  }
+
+  .underline-home::before {
+    width: 33px;
+  }
+
+  .underline-about::before {
+    width: 57px;
+  }
+
+  .underline-project::before {
+    width: 103px;
+  }
+
+  .underline-service::before {
+    width: 86px;
+  }
+
+  .underline-gallery::before {
+    width: 50px;
+  }
+
+  .underline-contact::before {
+    width: 73px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+  .about-img-tab {
+    max-width: 300px;
+    margin-top: 30%;
+  }
+
+  .mission-icon-tab {
+    max-width: 30px;
+  }
+
+  .sub-topic-tab {
+    font-size: 18px;
+    margin-left: 0px;
+  }
+
+  .text-tab {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .carousel-text-tab {
+    font-size: 20px;
+  }
+
+  .line-one {
+    bottom: 177px;
+    left: 129px;
+    position: absolute;
+  }
+
+  .line-two {
+    bottom: 150px;
+    left: 129px;
+    position: absolute;
+  }
+
+  .carousel-sub-text {
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    bottom: 120px;
+    left: 130px;
+  }
+
+  .view-gallery-btn {
+    width: 120px;
+    height: 35px;
+    left: 140px;
+    font-size: 13px;
+  }
+
+  .contact-us-btn {
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  .project-topic {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+
+  .project-name {
+    font-size: 14px;
+  }
+
+  .service-img {
+    max-width: 200px;
+    max-height: 180px;
+  }
+
+  .card-custom-height {
+    min-width: 200px !important;
+  }
+
+  .service-card-topic {
+    font-size: 13px;
+  }
+
+  .service-points li {
+    font-size: 11px;
+  }
+
+  .contact-sub-topic {
+    font-size: 15px;
+  }
+
+  .contact-label {
+    font-size: 14px;
+  }
+
+  .contact-details-topic {
+    font-size: 18px;
+  }
+
+  .contact-details-sub-topic {
+    font-size: 13px;
+  }
+
+  .contact-details-text {
+    font-size: 11px;
+    text-align: left;
+  }
+
+  .contact-detail-side {
+    padding: 17px 40px 74px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .home-underscore {
+    width: 34px;
+  }
+
+  .about-underscore {
+    width: 56px;
+  }
+
+  .project-underscore {
+    width: 104px;
+  }
+
+  .service-underscore {
+    width: 84px;
+  }
+
+  .gallery-underscore {
+    width: 50px;
+  }
+
+  .contact-underscore {
+    width: 73px;
+  }
+
+  .section-padding {
+    height: auto;
+  }
+
+  .section-padding-about {
+    height: auto;
+  }
+
+}
+
+/* MObile devices (mobile, 575px and up) The navbar toggle appears at this breakpoint */
+@media only screen and (max-width: 575px) {
+  .section-padding {
+    height: auto;
+    padding-top: 5px !important;
+  }
+
+  .section-padding-about {
+    height: auto;
+    padding-top: 5px !important;
+  }
+
+  .about-img-tab {
+    max-width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .view-gallery-btn {
+    bottom: 36px;
+    left: 180px;
+    font-size: 12px;
+    height: 30px;
+    width: 90px;
+  }
+
+  .contact-us-btn {
+    font-size: 12px;
+    left: 80px;
+    bottom: 35px;
+    height: 30px;
+    width: 90px;
+  }
+
+  .carousel-sub-text {
+    left: 80px;
+    bottom: 55px;
+    font-size: 11px;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+
+  .line-two {
+    bottom: 85px;
+    font-size: 20px !important;
+    left: 80px;
+  }
+
+  .carousel-text-tab {
+    font-size: 20px;
+  }
+
+  .line-one {
+    bottom: 110px;
+    left: 80px;
+    font-size: 20px;
+  }
+
+  .img-height {
+    height: 230px;
+  }
+
+  .about-sub-topic {
+    font-size: 25px;
+    margin-left: 0px;
+  }
+
+  .add-margin-about-sub {
+    margin-left: 13px;
+  }
+
+  .about-text {
+    margin: 25px 0 0 0;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .add-mobile-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .mission-all-tab {
+    margin: auto;
+    padding: 35px 45px 63px 48px;
+  }
+
+  .mission-text {
+    font-size: 14px;
+  }
+
+  .mobile-show {
+    display: block;
+  }
+
+  .desktop-show {
+    display: none;
+  }
+
+  .card-custom-height {
+    min-width: 250px;
+    margin-top: 10px;
+  }
+
+  .contact-sub-mobile {
+    font-size: 22px;
+  }
+
+  .contact-sub-topic {
+    font-size: 14px;
+  }
+
+  .contact-detail-side {
+    margin-left: 15px;
+    width: 100%;
+    padding: 20px 10px 74px;
+    margin-right: 15px;
+  }
+
+  .contact-details-topic {
+    font-size: 20px;
+  }
+
+  .contact-details-text {
+    font-size: 13px;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .project-img-mobile {
+    max-width: 350px;
+    text-align: left !important;
+  }
+
+  .project-topic {
+    font-size: 25px;
+  }
+
+  .project-name {
+    font-size: 12px;
+    position: absolute;
+    left: 46px;
+  }
+
+  .add-margin-project-name {
+    margin-left: 12px;
+  }
+
+  .contact-label {
+    font-size: 14px;
+  }
+
+  .gallery-height {
+    min-height: 310px;
+  }
+
+  .mobile-gallery-padding {
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+
+  .gallery-img {
+    min-height: 140px;
+  }
+
+  .header-logo {
+    margin: auto;
+    display: block;
+    max-width: 55px;
+    margin-top: 7px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    background-color: #3662d1;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: blanchedalmond;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: #3662d1;
+    color: black;
+  }
+
+  .icon {
+    min-width: 33px;
+    float: right;
+    color: #3662d1;
+    font-size: 25px;
+    margin-top: -10px;
+  }
+
+  .header {
+    height: 88px;
+  }
+
+  #home {
+    margin-top: 25px;
+  }
+
+  .contact-detail-side {
+    height: 465px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+  }
+}

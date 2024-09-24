@@ -1,0 +1,55 @@
+.image-header {
+    max-width: 800px;
+    margin-top: 5%;
+    height: 400px;
+}
+
+.rectangle {
+    /* width: 271px; */
+    border-radius: 11px;
+    border: 0.6px solid #a191b2;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 20px 15px;
+    height: 170px;
+}
+
+.rectangle:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 0.6px solid #df5200;
+}
+
+.icons {
+    height: 50px;
+}
+
+.iconImages2,
+.Rectangle .iconImages {
+    margin: auto;
+    float: none;
+    display: block;
+    width: 10px;
+    height: 10px;
+    max-height: 10px;
+    max-width: 10px;
+}
+
+.iconImages {
+    margin: auto;
+    float: none;
+    display: block;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+
+
+/* MObile devices (mobile, 575px and up) The navbar toggle appears at this breakpoint */
+@media only screen and (max-width: 575px) {
+    .image-header {
+        max-width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
